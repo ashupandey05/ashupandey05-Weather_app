@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly-The most trusted weather app</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="webname">
+            <h2>Weatherly-Your weather telling buddy</h2>
+        </div>
+        <div class="data" id="data">
+            <span>Enter your city:</span><input type="search" id="citySearch" placeholder="Enter your city">
+            <span>Enter your country:</span><input type="search" id="countrySearch" placeholder="Enter your country">
+            <button class="btnn" id="submit">Search</button>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="mainbox1">
+            <div id="a1">
+                <h3 id="city" class="text">Noida</h3>
+                <h3 id="country" class="text">India</h3>
+            </div>
+            <div id="a3">
+                <h2 id="Temp" class="text">Current temperature <span id="temp1" class="text">24</span>&#8451</h2>
+
+                <p id="feel-like" class="text">Feels like <span id="feel-like1" class="text">23.2</span>&#8451</p>
+            </div>
+            <div id="a9">
+                <h4 id="sunrise" class="text">Sunrise <span id="sunrise1" class="text">06:15</span></h4>
+
+                <h4 id="sunset" class="text">Sunset <span id="sunset1" class="text">07:00</span></h4>
+            </div>
+            <div class="downelements">
+                <div id="a7">
+                    <h4 id="sunrise" class="text">Pressure <span id="pressure1" class="text">1040</span>Hg</h4>
+                </div>
+                <div id="a8">
+                    <h4 id="rain" class="text">Visibility <span id="rain1" class="text">0</span>miles</h4>
+                </div>
+                <div id="a5">
+                    <h4 id="wind" class="text">Wind Speed <span id="wind1" class="text">4</span>km/hr</h4>
+                </div>
+                <div id="a6">
+                    <h4 id="winddir" class="text">Wind Direction <span id="wind1dir" class="text">W</span></h4>
+                </div>
+                <div id="a7">
+                    <h4 id="humditiy" class="text">Humditiy <span id="humditiy1" class="text">28</span>%</h4>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="seccontainer">
+        <div id="tank-heading">
+            <h2>Hourly weather updates</h2>
+        </div>
+        <div class="subtank">
+            <div class="tank" id="tank-0">
+                <h4>00:00</h4>
+                <p id="b0">15</p>
+                <img src="/pictures/moon.webp" alt="sun" class="sunn">
+            </div>
+            <div class="tank" id="tank-1">
+                <h4>06:00</h4>
+                <p id="b1">15</p>
+                <img src="/pictures/sun.jpg" alt="sun" class="sunn">
+            </div>
+            <div class="tank" id="tank-2">
+                <h4>10:00</h4>
+                <p id="b2">15</p>
+                <img src="/pictures/sun.jpg" alt="sun" class="sunn">
+            </div>
+            <div class="tank" id="tank-3">
+                <h4>14:00</h4>
+                <p id="b3">15</p>
+                <img src="/pictures/sun.jpg" alt="sun" class="sunn">
+            </div>
+            <div class="tank" id="tank-4">
+                <h4>18:00</h4>
+                <p id="b4">15</p>
+                <img src="/pictures/moon.webp" alt="sun" class="sunn">
+            </div>
+            <div class="tank" id="tank-5">
+                <h4>22:00</h4>
+                <p id="b5">15</p>
+                <img src="/pictures/moon.webp" alt="sun" class="sunn">
+
+            </div>
+        </div>
+    </div>
+    <div class="lastcontainer">
+        <div class="last-heading">
+            <h2>Know about upcoming days</h2>
+        </div>
+        <div class="last-sub">
+            <div class="l-tank" id="l-tank-1">
+                <h3 id="l-heading1">16-02-2023</h3>
+                <p>Min temp <span id="c1">10</span>&#8451</p>
+                <p>Max temp <span id="d1">10</span>&#8451</p>
+                
+            </div>
+            <div class="l-tank" id="l-tank-2">
+                <h3 id="l-heading2">17-02-2023</h3>
+                <p>Min temp <span id="c2">10</span>&#8451</p>
+                <p>Max temp <span id="d2">10</span>&#8451</p>
+            </div>
+            <div class="l-tank" id="l-tank-3">
+                <h3 id="l-heading3">18-02-2023</h3>
+                <p>Min temp <span id="c3">10</span>&#8451</p>
+                <p>Max temp <span id="d3">10</span>&#8451</p>
+            </div>
+            <div class="l-tank" id="l-tank-4">
+                <h3 id="l-heading4">19-02-2023</h3>
+                <p>Min temp <span id="c4">10</span>&#8451</p>
+                <p>Max temp <span id="d4">10</span>&#8451</p>
+            </div>
+            <div class="l-tank" id="l-tank-5">
+                <h3 id="l-heading5">20-02-2023</h3>
+                <p>Min temp <span id="c5">10</span>&#8451</p>
+                <p>Max temp <span id="d5">10</span>&#8451</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

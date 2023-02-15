@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 68vw;
+    margin: auto;
+    position: absolute;
+    color: aliceblue;
+    top: 25vh;
+    left: 15vw;
+    /* border: 2px solid blue; */
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 25px;
+}
+#data{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+#submit{
+    margin-top: 2vh;
+    padding: 0.5vh 0;
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 2px;
+    
+}
+#submit:hover{
+    margin-top: 2vh;
+    padding: 0.5vh 0;
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 2px;
+    background-color: rgba(159, 159, 159, 0.082);
+    
+}
+.box1{
+    display: flex;
+}
+.leftimg{
+    margin: 5px;
+
+}
+.leftimg img{
+    width: 7vw;
+    border-radius: 25px;
+}
+.rightimg img{
+    width: 6vw;
+    border-radius: 25px;
+
+}
+.rightimg{
+    margin: 5px;
+}
+.mainheading{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.mainheading h2{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: xx-large;
+}
+.mainheading p{
+    font-family: 'Signika Negative', sans-serif;
+}
+.bgimg{
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    margin: 1.5vh 5vw;
+    padding: 3vh 4vw;
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    /* text-decoration: none; */
+    border-radius: 40px;
+    border: none;
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.btn:hover{
+    margin: 1.5vh 5vw;
+    padding: 3vh 4vw;
+    background-color: rgb(16, 16, 16);
+    /* color: rgb(180, 180, 180); */
+    cursor: pointer;
+    /* text-decoration: none; */
+    border-radius: 40px;
+}
+/* CSS of main page starts here */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Libre Baskerville', serif;
+    margin: 2.5vh 1.5vw;
+    color: aliceblue;
+    
+    position: absolute;
+    /* border: 2px solid yellow; */
+    width: 95%;
+    
+    /* display: block; */
+    
+}
+.webname h2{
+    font-size: 3.5rem;
+}
+.maincontainer{
+    border: 2px solid black;
+    height: 100vh;
+    background: url('/pictures/mainpage-bg.jpg') no-repeat center center;
+    
+}
+
+.mainbox1{
+    /* border: 2px solid red; */
+    width: 50vw;
+    margin: auto;
+    position: relative;
+    top: 27vh;
+    height: 40vh;
+    color: aliceblue;
+    background: url('https://media1.giphy.com/media/67uxmHhIF3uh6Ph8ew/giphy.webp?cid=ecf05e47ccjsena7k9skhzbfr46uyfg0oexttmdr8iwrcsaa&rid=giphy.webp&ct=g') no-repeat center center/cover;
+    border-radius: 5px;
+    
+}
+.text{
+    font-family: 'Libre Baskerville', serif;
+
+}
+#a1{
+    text-align: center;
+    font-size: 1.7rem;
+}
+#a3{
+    text-align: center;
+}
+#a9{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    margin: 5vh 2vw;
+    font-size: 1.1rem;
+}
+.downelements{
+    display: flex;
+    font-size: 1.1rem;
+}
+/* hourly updates css */
+.sunn{
+    width: 3vw;
+}
+.seccontainer{
+    
+    background-color: rgba(0 0 36 / 0.69);
+    color: aliceblue;
+    margin-top: 0;
+}
+.tank{
+   
+    width: 10vw;
+    text-align: center;
+    height: 25vh;
+
+}
+#tank-heading h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    
+
+}
+.subtank{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.tank h4{
+    font-size: 2rem;
+}
+.tank p{
+    font-size: 1.5rem;
+}
+.lastcontainer{
+    
+    background: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center/cover;
+}
+.last-heading h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.l-tank{
+    
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    margin-top: 10vh;
+    
+    
+    
+}
+.last-sub{
+    display: flex;
+    font-size: 1.1rem;
+
+}
